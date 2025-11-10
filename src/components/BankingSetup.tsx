@@ -68,7 +68,7 @@ const BankingSetup = () => {
 
     const interval = setInterval(() => {
       api.scrollNext();
-    }, 10000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [api]);
